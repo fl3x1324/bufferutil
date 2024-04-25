@@ -8,8 +8,8 @@
   },
   "scripts": {
     "install": "node-gyp-build",
-    "prebuild": "prebuildify --napi --strip --target=8.11.2",
-    "prebuild-darwin-x64+arm64": "prebuildify --arch x64+arm64 --napi --strip --target=8.11.2",
+    "prebuild": "prebuildify --napi --strip --target=20.12.2",
+    "prebuild-linux-arm64": "prebuildify --platform linux --arch arm64 --napi --strip --target=20.12.2",
     "test": "mocha"
   },
   "repository": {
